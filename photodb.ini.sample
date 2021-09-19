@@ -1,0 +1,16 @@
+# these are used by the web app to define path
+[paths]
+pictures = /home/javier/Pictures
+appdir = /opt/memories/webapp
+
+# these are the parameters for your postgresql database
+[postgresdb]
+dbname=testphotodb
+user=testuser
+password=hello
+host=localhost
+port=5432
+
+# this stores your OpenCage API key for doing inverse geolocation
+[opencage]
+apikey = b1ab1ab1ab1ab1ab1ab1ab1ab1ab1ab1
